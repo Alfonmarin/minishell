@@ -1,0 +1,2 @@
+parser.y, scanner.l, Makefile: Francisco Rosales (Profesor autor)
+main.c: Alfonso Marín (alumno colaborador)
