@@ -21,13 +21,12 @@ El objetivo principal fue **comprender el funcionamiento interno de un intérpre
 ## 🧱 Estructura del proyecto
 | Archivo / Carpeta | Descripción |
 |--------------------|-------------|
-| **`main.c`** | Contiene el bucle principal del minishell y las llamadas a `obtain_order()` del parser. |
-| **`parser.l / parser.y`** | Analizadores léxico y sintáctico (Lex/Yacc) proporcionados por la práctica. |
-| **`functions.c`** | Funciones auxiliares de ejecución y manejo de redirecciones. |
-| **`expand_vars.c`** | Implementación de expansión de variables, tildes y comodines. |
+| **`main.c`** | Contiene la implementación principal del minishell. |
+| **`parser.y`** | Gramática Yacc que analiza la línea de órdenes proporcionados por la práctica. |
+| **`scanner.l`** | Analizador léxico con Flex: separa tokens y operadores (`|`, `<`, `>`, `&`, `\n`). |
 | **`Makefile`** | Archivo de compilación automática (`make`). |
-| **`msh`** | Ejecutable resultante tras la compilación. |
-| **`README.md` / `memoria-minishell.pdf`** | Documentación y resultados del proyecto. |
+| **`autores.txt`** | Créditos: **Francisco Rosales** (base del parser, scanner y makefile) y **Alfonso Marín** (main.c). |
+| **`README.md` / `memoria-minishell.pdf`** | Documentación, resultados del proyecto e instrucciones para ejecutar. |
 
 ---
 
