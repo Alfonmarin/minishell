@@ -23,7 +23,7 @@ El objetivo principal fue **comprender el funcionamiento interno de un intérpre
 |--------------------|-------------|
 | **`main.c`** | Contiene la implementación principal del minishell. |
 | **`parser.y`** | Gramática Yacc que analiza la línea de órdenes proporcionados por la práctica. |
-| **`scanner.l`** | Analizador léxico con Flex: separa tokens y operadores (`|`, `<`, `>`, `&`, `\n`). |
+| **`scanner.l`** | Analizador léxico con Flex: separa tokens y operadores. |
 | **`Makefile`** | Archivo de compilación automática (`make`). |
 | **`autores.txt`** | Créditos: **Francisco Rosales** (base del parser, scanner y makefile) y **Alfonso Marín** (main.c). |
 | **`README.md` / `memoria-minishell.pdf`** | Documentación, resultados del proyecto e instrucciones para ejecutar. |
